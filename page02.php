@@ -57,27 +57,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <header>
-        <h1>
-            <a href="index.php">Brackets, a Web Developer's IDE</a>
-        </h1>
+        <?php include 'header.php';?>
     </header>
     <nav>
-        <ul>
-            <li><a href="page01.php" class="button">Features</a></li>
-            <li><a href="page02.php" class="button">Plug-Ins</a></li>
-            <li><a href="page03.php" class="button">Pricing</a></li>
-        </ul>
+        <?php include 'nav.php';?>
     </nav>
     <main>
-        <p class="centertext">Quisque nulla dolor, fringilla sit amet sodales et, pulvinar ut elit. Suspendisse posuere libero sit amet ultricies elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet sapien nec dolor tristique, sit amet mattis odio luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a porttitor ante, et euismod turpis. Donec eget lectus eget velit fermentum semper at nec orci. </p>
-        <p class="lefttext">Integer sed leo dignissim, vestibulum lectus sit amet, convallis lectus. Donec vehicula accumsan pharetra. Etiam posuere velit id consequat dapibus. Maecenas blandit sapien in enim pellentesque tempus. Ut fringilla eu elit quis congue. Integer hendrerit nunc nec elit efficitur finibus at quis magna. Aenean quis lorem sagittis, laoreet sapien nec, euismod nisl. Morbi ipsum enim, suscipit eget ipsum ut, bibendum efficitur elit. Mauris nec commodo dolor. Quisque vel finibus ex. Aliquam et posuere purus. </p>
+    
     </main>
-
     <footer>
-        <a href="../index.html" class="button"> &#10096; Web 115 index</a>
-        <h6>&copy; 
-            <a href="http://aubreyjcook.com/" target="_blank">Aubrey J Cook, 2016</a>
-        </h6>
+        <?php include 'footer.php';?>
     </footer>
   </div>
 
