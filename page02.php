@@ -24,7 +24,7 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="CSS/style.css">
   
   <!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
