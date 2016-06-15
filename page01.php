@@ -72,10 +72,24 @@
            <img id="large" src="images/picture1.jpg" alt="robin on a road guard"/>
         </div>
         
-        <div>
-           <a href="#large"><img src="images/picture1.jpg" alt="robin on a road guard" height="125" title="robin on a road guard" onclick="change01()"/></a><br>
-           <a href="#large"><img src="images/picture2.jpg" alt="ground hog in a tree" height="125" title="ground hog in a tree" onclick="change02()"/></a><br>
-           <a href="#large"><img src="images/picture3.jpg" alt="graveyard at sundown" height="125" title="graveyard at sundown" onclick="change03()"/></a><br>
+        <div style="display: inline; float: right;">
+            <div class="imgDisplayInline">
+                <a href="#large">
+                    <img src="images/picture1.jpg" alt="robin on a road guard" height="125" width="400" title="robin on a road guard" onclick="change01()"/>
+                </a>
+            </div>
+            <div class="imgDisplayInline">
+                <a href="#large">
+                    <img src="images/picture2.jpg" alt="ground hog in a tree" height="125"
+                    width="400" title="ground hog in a tree" onclick="change02()"/>
+                </a>
+            </div>
+            <div class="imgDisplayInline">
+                <a href="#large">
+                   <img src="images/picture3.jpg" alt="graveyard at sundown" height="125"
+                   width="400" title="graveyard at sundown" onclick="change03()"/>
+               </a>
+            </div>
         </div>
     </main>
     <footer>

@@ -231,8 +231,13 @@ figure img {
     float: right;
 }
 
+.imgDisplayInline {
+    float: left;
+    padding: 10px;
+}
+
 #large{
-    width: 65%;
+    width: 45%;
     height: auto;
 }
 
