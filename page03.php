@@ -63,12 +63,22 @@
         <?php include 'nav.php';?>
     </nav>
     <main>
-        <p style="width: 65%; text-align: left;">
-            Aenean blandit tortor ac dapibus sodales. Vestibulum non ante nulla. Nam pulvinar tellus id mollis efficitur. Vivamus vel bibendum purus. Etiam tincidunt dui non ligula ultricies, placerat consectetur ante laoreet. Cras aliquam, mi at congue rhoncus, urna magna varius metus, vitae condimentum diam arcu et est. Nam tempor enim ut ante lobortis laoreet. Suspendisse arcu tortor, volutpat lobortis lorem luctus, bibendum efficitur odio. Fusce quis accumsan est. Vestibulum aliquam varius sapien, vel consectetur ligula molestie in. Mauris porttitor hendrerit mauris vitae dignissim. Nulla a nulla eu eros rutrum ultrices. Vivamus non quam ipsum. 
+        <div style="width: 65%; text-align: left; padding: 10px;">
+            <p>
+                One of the best things about Brackets is that it's all free. Brackets is Open-source, so it doesn't cost anything. Production of the software is contributed to by volunteer programmers.
+            </p>
+        </div>
+        <div style="float: left; width: 45%;">
+            <a href="http://brackets.io/" target="_blank">
+                Click this link to head to the Brackets homepage and download the software.
+            </a>
+        </div>
+        <a href="http://brackets.io/" target="_blank">
+            <img src="images/bracketsdownload.png"/>
+        </a>
+        <p style="text-align: center;">
+            No special libraries are needed to install Brackets, which makes it a simple program to install, just run once and you're ready to go and configure Brackets to your liking.
         </p>
-        <a href="http://brackets.io/" style="float: left;">This is a link</a>
-        <img src="images/picture3.jpg"/>
-        <p style="text-align: center;">Nam molestie, est et tristique ultrices, mauris ligula feugiat felis, ut ultricies ipsum sapien sit amet urna. Donec tellus massa, ullamcorper a tempus vitae, tristique a metus. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut nulla et nulla tristique suscipit sit amet at diam. Proin a aliquet justo, sed suscipit mauris. Integer semper ligula mauris, in blandit erat egestas sed. Donec aliquam, augue id porttitor lacinia, magna nibh congue libero, et tincidunt dolor ex ac arcu. </p>
     </main>
     <footer>
         <?php include 'footer.php';?>

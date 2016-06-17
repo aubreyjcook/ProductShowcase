@@ -1,30 +1,42 @@
 
 function change01(){
-    document.getElementById("large").src="images/picture1.jpg";
-    document.getElementById("large").alt="robin on a road guard";
+    document.getElementById("large").src="images/brackets01.png";
+    document.getElementById("large").alt="";
 }
 
 function change02(){
-    document.getElementById("large").src="images/picture2.jpg";
-    document.getElementById("large").alt="ground hog in a tree";
+    document.getElementById("large").src="images/brackets02.png";
+    document.getElementById("large").alt="";
 }
 
 function change03(){
-    document.getElementById("large").src="images/picture3.jpg";
-    document.getElementById("large").alt="graveyard at sundown";
+    document.getElementById("large").src="images/brackets03.png";
+    document.getElementById("large").alt="";
 }
 
 function change04(){
-    document.getElementById("large").src="images/picture4.jpg";
-    document.getElementById("large").alt="statue of jesus";
+    document.getElementById("large").src="images/brackets04.png";
+    document.getElementById("large").alt="";
 }
 
 function change05(){
-    document.getElementById("large").src="images/picture5.jpg";
-    document.getElementById("large").alt="white bird on river tree";
+    document.getElementById("large").src="images/brackets05.png";
+    document.getElementById("large").alt="";
 }
 
 function change06(){
-    document.getElementById("large").src="images/picture6.jpg";
-    document.getElementById("large").alt="statue of virgin mary";
+    document.getElementById("large").src="images/brackets06.png";
+    document.getElementById("large").alt="";
+}
+
+function change07(){
+    document.getElementById("textBlock").innerHTML="Text 1";
+}
+
+function change08(){
+    document.getElementById("textBlock").innerHTML="Text 2";
+}
+
+function change09(){
+    document.getElementById("textBlock").innerHTML="Text 3";
 }
