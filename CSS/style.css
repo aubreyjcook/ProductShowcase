@@ -3,14 +3,17 @@
     Paragraphs: font-family: 'Arimo', sans-serif;
 */
 
+
 /* Colors
     
 */
 
-* { /* clears inherited padding/margin */
+* {
+    /* clears inherited padding/margin */
     padding: 0px;
     margin: 0px;
 }
+
 
 /* begin content general styling */
 
@@ -32,7 +35,8 @@ body {
     border-radius: 5px;
 }
 
-footer, header {
+footer,
+header {
     padding: 15px;
     background-color: white;
     color: black;
@@ -45,12 +49,18 @@ img {
     opacity: 1;
 }
 
+
 /* end of content general styling */
 
 
 /* begin font general styling */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Cousine', ;
     color: black;
 }
@@ -60,6 +70,7 @@ p {
     padding: 5px;
     color: black;
 }
+
 
 /* end of font general styling */
 
@@ -101,8 +112,8 @@ nav li {
     list-style-type: none;
 }
 
-
-main, article {
+main,
+article {
     padding: 10px;
     font-size: 18;
     text-align: justify;
@@ -176,7 +187,7 @@ figure img {
 }
 
 .button {
-    background-color: rgb(33,33,33);
+    background-color: rgb(33, 33, 33);
     color: ghostwhite;
     border: none;
     text-align: center;
@@ -185,7 +196,6 @@ figure img {
     font-size: 16px;
     border-radius: 8px;
     padding: 3px;
-    
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
@@ -202,7 +212,7 @@ figure img {
 }
 
 .current {
-    background-color: rgb(45,45,45);
+    background-color: rgb(45, 45, 45);
     color: ghostwhite;
     border: none;
     text-align: center;
@@ -213,10 +223,10 @@ figure img {
     padding: 3px;
 }
 
-.left img, .right img {
+.left img,
+.right img {
     margin: 10px auto;
 }
-
 
 .left {
     width: 200px;
@@ -224,6 +234,7 @@ figure img {
     min-height: 600px;
     text-align: center;
 }
+
 .right {
     width: 800px;
     text-align: center;
@@ -236,9 +247,10 @@ figure img {
     padding: 10px;
 }
 
-#large{
+#large {
     width: 45%;
     height: auto;
 }
+
 
 /* end of specific styling */
